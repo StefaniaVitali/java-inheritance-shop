@@ -2,12 +2,14 @@ package org.inheritance.java.shop;
 
 public class Smartphone extends Prodotto{
 	
-	private long Imeicodex;
+	private long imeiCodex;
 	private String ramGb;
 	
 
-	public Smartphone(int codice, String nome, String marca, float prezzo) {
+	public Smartphone(int codice, String nome, String marca, float prezzo,long imeiCodex, String ramGb) {
 		super(codice, nome, marca, prezzo);
+		this.imeiCodex = imeiCodex;
+		this.ramGb = ramGb;
 	}
 	
 	public String getRamGb() {
@@ -19,12 +21,12 @@ public class Smartphone extends Prodotto{
 		this.ramGb = ramGb;
 	}
 
-	public long getImeicodex() {
-		return Imeicodex;
+	public long getImeiCodex() {
+		return imeiCodex;
 	}
 
-	public void setImeicodex(long imeicodex) {
-		Imeicodex = imeicodex;
+	public void setImeiCodex(long imeiCodex) {
+		this.imeiCodex = imeiCodex;
 	}
 	
 }
