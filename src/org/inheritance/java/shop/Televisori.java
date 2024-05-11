@@ -10,4 +10,20 @@ public class Televisori extends Prodotto{
 	
 	}
 
+	public float getDimensione() {
+		return dimensione;
+	}
+
+	public void setDimensione(float dimensione) {
+		this.dimensione = dimensione;
+	}
+
+	public boolean isSmart() {
+		return smart;
+	}
+
+	public void setSmart(boolean smart) {
+		this.smart = smart;
+	}
+
 }

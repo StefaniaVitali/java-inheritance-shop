@@ -3,14 +3,28 @@ package org.inheritance.java.shop;
 public class Smartphone extends Prodotto{
 	
 	private long Imeicodex;
-	private String Ramgb;
+	private String ramGb;
 	
 
 	public Smartphone(int codice, String nome, String marca, float prezzo) {
 		super(codice, nome, marca, prezzo);
-		// TODO Auto-generated constructor stub
+	}
+	
+	public String getRamGb() {
+		
+		return ramGb;
 	}
 
-	
+	public void setRamGb(String ramGb) {
+		this.ramGb = ramGb;
+	}
+
+	public long getImeicodex() {
+		return Imeicodex;
+	}
+
+	public void setImeicodex(long imeicodex) {
+		Imeicodex = imeicodex;
+	}
 	
 }
