@@ -29,4 +29,10 @@ public class Smartphone extends Prodotto{
 		this.imeiCodex = imeiCodex;
 	}
 	
+	@Override
+	public String toString() {
+		return super.toString() + " con codice IMEI n' " + this.getImeiCodex()  + " e con " + this.getRamGb(); 
+		 
+	}
+	
 }

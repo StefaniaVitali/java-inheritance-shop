@@ -85,7 +85,13 @@ public class Prodotto {
 	}
 	
 	
+	//METODO toString
 	
+	@Override
+	public String toString() {
+		return "E' stato aggiunto al carrello il prodotto " + this.getNome() + " con il codice " + this.getCodice() + 
+				" della marca " + this.getMarca();
+	}
 	
 	
 	

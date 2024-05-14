@@ -39,6 +39,9 @@ public class Cuffie extends Prodotto{
 		this.cablate = cablate;
 	}
 
-	
+	@Override
+	public String toString() {
+		return super.toString() + " con colore ' " + this.getColore(); 
+	}
 
 }
